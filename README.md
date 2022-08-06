@@ -5,6 +5,10 @@ The program is to show how the object would travel and bounce against the walls.
 "Y" blocks change the direction of the ball to random.
 The program is to end when object comes back to original position. 
 
+JS_bouncing_ball version based on pictures
+
+JS_bouncing_ball_Webdings version based on font
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Clone/copy project**

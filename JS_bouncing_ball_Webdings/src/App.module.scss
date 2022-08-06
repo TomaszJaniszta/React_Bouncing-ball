@@ -1,0 +1,78 @@
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes op {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Ball {
+  animation-name: spinning;
+  border-radius: 80%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  background-image: radial-gradient(#fff700, #ff0000, #afffb6);
+}
+
+.BallRunning {
+  animation-name: spinning, op;
+  border-radius: 80%;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-image: radial-gradient(#fff700, #ff0000, #afffb6);
+}
+
+.Ball:hover {
+  cursor: pointer;
+  animation-name: none;
+  transform: scale(1.8);
+}
+
+.Backgroud {
+  background-image: radial-gradient(#ff8765, #ffffff, #97fdff);
+}
+
+.board {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  font-family: Webdings;
+  font-size: 3vw;
+  padding-bottom: 20vh;
+}
+
+.Air {
+  background-color: #afffb6;
+}
+
+.button {
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.y {
+  color: red;
+  background-color: #fff347;
+}
+
+.Wall {
+  background-color: #ce9980;
+}

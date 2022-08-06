@@ -1,0 +1,17 @@
+h1 {
+  font-family: Lato;
+  color: red;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  /* flex-direction: column; */
+    background-color: DodgerBlue;
+    text-align: center;
+  }
+
+.p {
+  color: red;
+  background-color: aqua;
+}
